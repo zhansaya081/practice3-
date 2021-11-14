@@ -1,0 +1,131 @@
+body{
+  background-color: #203042;
+}
+.box{
+  position: relative;
+  background: none;
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.container{
+  position: absolute;
+  width: 40%;
+  height: 50%;
+  background: none;
+  top: 25%;
+  left: 30%;
+}
+
+.glass{
+  position: absolute;
+  height: 80%;
+  width: 20%;
+  background: skyblue;
+  opacity: 0.7;
+  top: 20%;
+  left: 40%;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  z-index: 2;
+}
+
+.cap-left{
+  position: absolute;
+  width: 50%;
+  height: 15%;
+  top: -15%;
+  background: rosybrown;
+} 
+.cap-right{
+  position: absolute;
+  width: 50%;
+  height: 15%;
+  top: -15%;
+  right: 0%;
+  background: saddlebrown;
+}
+
+.fill{
+  position: absolute;
+  height: 90%;
+  width: 80%;
+  background: red;
+  opacity: 0.8;
+  bottom: 5%;
+  left: 10%;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  animation: slime 1.5s infinite;
+  z-index: 1;
+}
+
+
+
+@keyframes slime{
+  0%{
+    height: 0%;
+  }
+  10%{
+    height: 10%;
+  }
+  15%{
+    height: 15%;
+  }
+  20%{
+    height: 20%;
+  }
+  25%{
+    height: 25%;
+  }
+  30%{
+    height: 30%;
+  }
+  35%{
+    height: 35%;
+  }
+  40%{
+    height: 40%;
+  }
+  45%{
+    height: 45%;
+  }
+  50%{
+    height: 50%;
+  }
+  55%{
+    height: 55%;
+  }
+  60%{
+    height: 60%;
+  }
+  65%{
+    height: 65%;
+  }
+  70%{
+    height: 70%;
+  }
+  75%{
+    height: 75%;
+  }
+  80%{
+    height: 80%;
+  }
+  85%{
+    height: 85%;
+  }
+  90%{
+    height: 90%;
+  }
+  95%{
+    height: 92%;
+  }
+  100%{
+    height: 93%;
+  }
+
+}
+    </style>
